@@ -18,7 +18,7 @@ docker-compose up -d
 
 ## Proxy Cache
 
-Phonized exposes port 80 and 9001. If you don't want to use proxy caching, use 9001 instead of 80.
+Photonized exposes port 80 and 9001. If you don't want to use proxy caching, use 9001 instead of 80.
 
 ## Examples
 
