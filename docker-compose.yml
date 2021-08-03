@@ -21,10 +21,8 @@ services:
     volumes:
       - ./srv/photon:/srv/photon
       - ./fpm/php-ini-overrides.ini:/usr/local/etc/php/conf.d/99-overrides.ini
-      - ./fpm/www.conf:/etc/php/7.2/fpm/pool.d/www.conf
-      - ./fpm/extensions/gmagick.so:/usr/local/lib/php/extensions/no-debug-non-zts-20170718/gmagick.so
+      - ./fpm/www.conf:/etc/php/7.3/fpm/pool.d/www.conf
       - ./bin/cwebp:/usr/local/bin/cwebp
-      - ./bin/jpegoptim:/usr/local/bin/jpegoptim
       - ./bin/optipng:/usr/local/bin/optipng
       - ./bin/pngquant:/usr/local/bin/pngquant
 
