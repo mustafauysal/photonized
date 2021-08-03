@@ -1,6 +1,6 @@
 # Photonized
 
-Photonized is an only-fly image resizer and optimizer that works on docker container. It's dead simple; you only need docker & docker-compose.
+Photonized is an on-the-fly image resizer and optimizer that works on docker container. It's dead simple; you only need docker & docker-compose.
 
 ## Requirements
 
@@ -22,11 +22,11 @@ Photonized exposes port 80 and 9001. If you don't want to use proxy caching, use
 
 ## Examples
 
-**Proxy Cached resize:** http://127.0.0.1/mustafauysal.files.wordpress.com/2016/08/wapuu.jpg?w=200
+**Proxy Cached resize:** http://127.0.0.1/uysalmustafa.com/wp-content/uploads/2019/04/ca-2016-1024x767.jpg?w=200
 
-**Resize without caching:** http://127.0.0.1:9001/mustafauysal.files.wordpress.com/2016/08/wapuu.jpg?w=200
+**Resize without caching:** http://127.0.0.1:9001/uysalmustafa.com/wp-content/uploads/2019/04/ca-2016-1024x767.jpg?w=200
 
-**Crop:** http://127.0.0.1:9001/mustafauysal.files.wordpress.com/2016/08/wapuu.jpg?crop=0,100,150,50
+**Crop:** http://127.0.0.1:9001/uysalmustafa.com/wp-content/uploads/2019/04/ca-2016-1024x767.jpg?crop=0,100,150,30
 
 ## Docs
 
