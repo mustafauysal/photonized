@@ -1,5 +1,11 @@
 # Photonized
 
+> [!WARNING]
+> **This project is no longer maintained.**
+>
+> Photonized is kept here for archival purposes only and is not recommended for new projects.
+> If you need an actively maintained image resizing/proxy solution, please use [imgproxy](https://github.com/imgproxy/imgproxy) instead.
+
 Photonized is an on-the-fly image resizer and optimizer that works on docker container. It's dead simple; you only need docker & docker-compose.
 
 ## Requirements
